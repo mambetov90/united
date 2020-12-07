@@ -1,5 +1,5 @@
 module.exports = {
-    'Test': function (browser) {
+    'United.com': function (browser) {
         const google = browser.page.united();
         const timeOut = 60000;
 

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="0"
+            tests="1">
+
+  <testsuite name="ecosia"
+    errors="2" failures="0" hostname="" id="" package="ecosia" skipped="0"
+    tests="1" time="10.92" timestamp="">
+  
+    <testcase name="Test" classname="ecosia" time="10.92" assertions="2">
+
+    
+
+    
+    <error message="An error occurred while running .getText() command on &lt;Element [name=@submit[2]]&gt;: " type="error"><![CDATA[
+    NoSuchElementError: An error occurred while running .getText() command on &lt;Element [name=@submit[2]]&gt;: 
+    at GetText.noSuchElementError (/Users/vitamambetova/nightw/node_modules/nightwatch/lib/element/command.js:399:12)
+    at Object.errorHandler (/Users/vitamambetova/nightw/node_modules/nightwatch/lib/api/element-commands/_baseElementCommand.js:42:30)
+    at PeriodicPromise.runAction (/Users/vitamambetova/nightw/node_modules/nightwatch/lib/utils/periodic-promise.js:64:29)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        TypeError: (intermediate value).click is not a function
+   - writing an ES6 async test case? - keep in mind that commands return a Promise; 
+   - writing unit tests? - make sure to specify &#34;unit_tests_mode=true&#34; in your config.
+       at Object.Test (/Users/vitamambetova/nightw/tests/ecosia.js:14:8)
+       at processTicksAndRejections (internal/process/task_queues.js:93:5)
+  NoSuchElementError: An error occurred while running .getText() command on &lt;Element [name=@submit[2]]&gt;: 
+   {&#34;value&#34;:null,&#34;status&#34;:-1,&#34;err&#34;:{&#34;detailedErr&#34;:-1}}
+       at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

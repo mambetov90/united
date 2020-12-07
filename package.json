@@ -1,0 +1,21 @@
+{
+  "name": "nightw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chromedriver": "^87.0.0",
+    "nightwatch": "^1.5.1",
+    "selenium-server": "^3.141.59"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [],
+  "description": ""
+}
